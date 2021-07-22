@@ -1,0 +1,62 @@
+#   especificaciones del lenguaje hist:
+#       '#'      :  son comentarios sobre lineas del lenguaje
+#       '@[...]' :  son desiciones excluyentes que se toman
+#                   dentro de la historia
+#       '@<...>' :  son incorporaciones en este archivo de
+#                   otros achivos existentes
+
+
+Elije tu provia aventura
+
+Había una vez un hermoso bootcamp. Yo como @
+
+[profesor]
+
+    decidí @
+    [hablar]
+        comentar como se había encontrado la nueva formula secreta para hackear slack.
+    [escuchar]
+        preguntar a ustedes como encontrar la bendita formula secreta para hackear slack.
+    [apagar la camara]
+        dejar de lado el mostrar mi bello rostro para que puedan prestar más atención a la clase.
+        
+    La proxima semana veremos @
+    [java]
+        java con lo cual deberemos preparar la clase de java.
+        
+        Una semana despues:
+        @<java-profe.hist>
+    [git]
+        git con lo cual deberemos preparar la clase de git.
+        
+        Una semana despues:
+        @<git-profe.hist>
+    [desafio final]
+        el desafío final con lo cual debemos prepara el desafío final.
+        
+        Una semana despues:
+        @<desafio-final-profe.hist>
+    
+[estudiante]
+    me dedique a @
+    [tener foco]
+        prestar extrema atencion a cada palabra de la persona acargo de dar la clase.
+    [estar disperso]
+        mirar como las amapolas daban fruto en pleno invierno.
+    
+    La proxima semana veremos @
+        [java]
+            java, con lo cual debemos prepara nuestra Programación Orientada a Objetos!
+            
+            Una semana despues:
+            @<java-estudiante.hist>
+        [git]
+            git, con lo cual debemos prepara nuestro flujo de trabajo ideal hacer lío y pisarnos!
+            
+            Una semana despues:
+            @<git-estudiante.hist>
+        [desafio final]
+            el desafío final. Con lo cual debemos prepara nuestros dedos para programar like champions!
+            
+            Una semana despues:
+            @<desafio-final-estudiante.hist>
